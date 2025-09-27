@@ -1,5 +1,5 @@
 # Multi-head-Mood-Classification-
-This project predicts **facial expressions**, **valence**, and **arousal** from face images using **CNNs**. We experimented with ResNet, EfficientNet, SE-Net, and a custom CNN to compare performance.
+This project predicts **facial expressions**, **valence**, and **arousal** from face images using **CNNs**. I experimented with ResNet, EfficientNetand a custom CNN to compare performance.
 
 The dataset contains **224x224 RGB face images**, **68 facial landmarks**, **8 expression labels** (Neutral, Happy, Sad, Surprise, Fear, Disgust, Anger, Contempt), and **valence/arousal values** in [-1, +1]. Uncertain or no-face images have valence/arousal = -2. The data is divided into train, validation, and test sets.
 
